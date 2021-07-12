@@ -3,17 +3,17 @@
 
 
 "@types/node@^16.3.0":
-  version "16.3.0"
-  resolved "https://repo.huaweicloud.com/repository/npm/@types/node/-/node-16.3.0.tgz#1836664e4fad13b51b07eb6e882a53925e6543c4"
+  version "16.3.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.3.1.tgz#24691fa2b0c3ec8c0d34bfcfd495edac5593ebb4"
 
 husky@6.0.0:
   version "6.0.0"
-  resolved "https://repo.huaweicloud.com/repository/npm/husky/-/husky-6.0.0.tgz#810f11869adf51604c32ea577edbc377d7f9319e"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-6.0.0.tgz#810f11869adf51604c32ea577edbc377d7f9319e"
 
 typescript@^4.3.5:
   version "4.3.5"
-  resolved "https://repo.huaweicloud.com/repository/npm/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
 
 xv@^0.2.3:
   version "0.2.3"
-  resolved "https://repo.huaweicloud.com/repository/npm/xv/-/xv-0.2.3.tgz#f7099cd41ca6071f739e84a72f0875810ef858fc"
+  resolved "https://registry.yarnpkg.com/xv/-/xv-0.2.3.tgz#f7099cd41ca6071f739e84a72f0875810ef858fc"
