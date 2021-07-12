@@ -21,6 +21,10 @@
   "directories": {
     "lib": "lib"
   },
-  "author": "",
-  "description": ""
+  "author": "paultion",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Paultion/husky.git"
+  }
 }
