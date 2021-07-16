@@ -1,30 +1,28 @@
 {
   "name": "@paultion/husky",
   "version": "1.0.0",
-  "license": "MIT",
-  "bin": {
-    "husky": "lib/bin.js"
+  "description": "",
+  "main": "index.js",
+  "bin": "bin/bin.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "husky": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^16.3.0",
-    "typescript": "^4.3.5",
-    "xv": "^0.2.3"
-  },
-  "dependencies": {
-    "husky": "6.0.0"
+    "xv": "^0.2.3",
+    "typescript": "^4.3.5"
   },
   "scripts": {
     "build": "tsc",
     "test": "yarn build && xv lib"
   },
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "author": "paultion",
-  "description": "",
   "repository": {
     "type": "git",
     "url": "https://gitee.com/zhang_guoliang/husky.git"
-  }
+  },
+  "author": "paultion",
+  "license": "ISC"
 }
