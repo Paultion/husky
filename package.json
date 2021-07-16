@@ -1,6 +1,6 @@
 {
   "name": "@paultion/husky",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -18,8 +18,8 @@
     "xv": "^0.2.3"
   },
   "scripts": {
-    "build": "tsc",
-    "test": "yarn build && xv lib"
+    "compile": "tsc",
+    "build": "yarn build && xv lib"
   },
   "repository": {
     "type": "git",
