@@ -1,3 +1,9 @@
+#project
 node_modules/
+yarn-error.log
+
+# editors
 .idea/
-src/
+
+#system
+.DS_Store

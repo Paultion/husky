@@ -1,6 +1,6 @@
 {
   "name": "@paultion/husky",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -15,16 +15,24 @@
   "devDependencies": {
     "@types/node": "^16.3.0",
     "typescript": "^4.3.5",
-    "xv": "^0.2.3"
+    "xv": "^0.2.3",
+    "prettier": "^2.3.2",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "lint-staged": "^10.0.0"
   },
   "scripts": {
     "compile": "tsc",
-    "build": "yarn build && xv lib"
+    "build": "yarn build && xv lib",
+    "format": "prettier --write './**/*.{ts,tsx,js,html,json}'"
   },
   "repository": {
     "type": "git",
     "url": "https://gitee.com/zhang_guoliang/husky.git"
   },
   "author": "paultion",
-  "license": "ISC"
+  "license": "ISC",
+  "lint-staged": {
+    "*.{ts,tsx,js,html,json}": "yarn format"
+  }
 }
