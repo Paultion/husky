@@ -7,3 +7,8 @@
 ```
   highusky
 ```
+3. tell your partner run command below
+```
+ highusky --init
+```
+
