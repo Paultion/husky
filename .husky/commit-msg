@@ -21,7 +21,9 @@ publish_msg="([1-9]\d|[1-9])(\.([1-9]\d|\d)){2}$"
 echo 'hhh'
 echo $commit_msg
 
-if [[ ! $commit_msg =~ $msg_re && ! $commit_msg =~ $conflict_fix && ! $commit_msg =~ $publish_msg ]]
+#  && ! $commit_msg =~ $publish_msg
+
+if [[ ! $commit_msg =~ $msg_re && !$commit_msg =~ $publish_msg ]]
 then 
   echo "\n不合法的 commit 消息提交格式，请使用正确的格式：\
     \nfeat: add comments"
