@@ -18,7 +18,7 @@ msg_re="^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\(.+\))?
 conflict_fix="^Merge( remote-tracking)? branch .+ into .+$";
 publish_msg="^v\d";
 
-#  && ! $commit_msg =~ $publish_msg
+echo $commit_msg
 
 if [[ ! $commit_msg =~ $msg_re && ! $commit_msg =~ $conflict_fix && ! $commit_msg =~ $publish_msg ]]
 then 
