@@ -1,23 +1,24 @@
 {
   "name": "@paultion/husky",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "bin": {
-    "highusky": "lib/bin.js"
+    "highusky": "lib/index.js"
   },
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
+    "commander": "^8.1.0",
     "husky": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^16.3.0",
-    "typescript": "^4.3.5",
-    "xv": "^0.2.3",
+    "lint-staged": "^10.0.0",
     "prettier": "^2.3.2",
-    "lint-staged": "^10.0.0"
+    "typescript": "^4.3.5",
+    "xv": "^0.2.3"
   },
   "scripts": {
     "compile": "tsc",
