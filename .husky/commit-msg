@@ -16,8 +16,12 @@
 commit_msg=`cat $1`
 msg_re="^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\(.+\))?: .{1,100}"
 conflict_fix="^Merge( remote-tracking)? branch .+ into .+$"
+publish_msg="^v(\d{1,2}\.)+$"
 
-if [[ ! $commit_msg =~ $msg_re && ! $commit_msg =~ $conflict_fix ]]
+echo 'hhh'
+echo $commit_msg
+
+if [[ ! $commit_msg =~ $msg_re && ! $commit_msg =~ $conflict_fix && ! $commit_msg =~ $publish_msg ]]
 then 
   echo "\n不合法的 commit 消息提交格式，请使用正确的格式：\
     \nfeat: add comments"
