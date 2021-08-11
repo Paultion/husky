@@ -11,4 +11,8 @@
 ```
  highusky --init
 ```
+or
+```
+  git config core.hooksPath .husky
+```
 
